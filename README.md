@@ -1,7 +1,7 @@
 # CLIPER 
 
 ## Summary
-It basically copies that is provided as its CL-Args onto the systems clipboard and can be used for furthur use.
+It basically copies whatever is provided as its CL-Args onto the systems clipboard and can be used for furthur use.
 
 ## Features
 This app has two major features
