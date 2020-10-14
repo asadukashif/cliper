@@ -24,6 +24,10 @@ ___
 
 
 ## Installation
+### Automated
+    wget 
+___
+### Manual 
     git clone https://github.com/ShaderOX/Cliper.git
 
 After having cloned it. I recommend to follow the steps below
