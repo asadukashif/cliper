@@ -1,5 +1,10 @@
 
-#! /usr/bin/python3
+"""
+This piece of code is written by ShaderOX (https://github.com/ShaderOX/). It is open-source and freely available.
+While using this kindly provide credits
+Enjoy!
+"""
+
 import pyperclip
 from sys import exit, argv
 import os
@@ -14,7 +19,7 @@ def Main():
 def get_command_line_text():
     """ Handles the command line args and checks for validates it """
     if len(argv) < 2:
-        print("Usage: clip <text or file to read from>")
+        print("Usage: clip <text or shell command or file to read from>")
         exit(1)
     else:
         text = ""
@@ -37,6 +42,7 @@ def get_command_line_text():
 
 
 def read_shell_command(command):
+    """ Performs the shell commands and returns their output """
     PIPE = subprocess.PIPE
     with subprocess.Popen(command, shell=True, stderr=PIPE, stdout=PIPE, stdin=PIPE) as shell:
         text, strerr = shell.communicate()
