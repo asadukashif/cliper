@@ -24,8 +24,10 @@ ___
 
 
 ## Installation
-### Automated
-    wget 
+### Automated (One-Step)
+    wget https://raw.githubusercontent.com/ShaderOX/Cliper/master/install.sh && sh ./install.sh && rm ./install.sh
+
+Note: `clip` is now aliased to perform the function. To change you have to edit the `~/.bashrc` file.  
 ___
 ### Manual 
     git clone https://github.com/ShaderOX/Cliper.git
