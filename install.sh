@@ -2,7 +2,7 @@
 
 MY_HOME="/home/$(whoami)"
 FOLDER_NAME="Custom Scripts"
-NEW_DIR_PATH="$MY_HOME/$FOLDER_NAME/"
+NEW_DIR_PATH="$MY_HOME/$FOLDER_NAME"
 
 echo $MY_HOME
 echo $NEW_DIR_PATH
