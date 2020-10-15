@@ -17,5 +17,5 @@ cp clip.py ../
 cd ..
 rm -rf ./Cliper/
 cd $MY_HOME
-echo "alias clip=\"python3 $NEW_DIR_PATH\"" >> ./.bashrc
+echo "alias clip=\"python3 '$NEW_DIR_PATH/clip.py'\"" >> ./.bashrc
 echo "Done!"
